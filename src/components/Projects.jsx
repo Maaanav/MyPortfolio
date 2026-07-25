@@ -5,6 +5,7 @@ import quizImg from "../assets/quizweb.png";
 import spendwiseImg from "../assets/spendwise.png";
 import flatImg from "../assets/mumbai-price.png";
 import stockwizImg from "../assets/stockwiz.png";
+import salesDashboardImg from "../assets/sales-dashboard.png";
 
 const projects = [
   {
@@ -14,7 +15,7 @@ const projects = [
     description:
       "An AI-powered Indian travel planner that creates personalized itineraries, recommends destinations, and helps users discover experiences tailored to their preferences.",
     tech: ["FastAPI", "Docker", "SerpAPI", "LLMs"],
-    github: "https://github.com/Maaanav",
+    github: "https://github.com/Maaanav/Luxura",
   },
   {
     id: "02",
@@ -23,7 +24,7 @@ const projects = [
     description:
       "An AI-powered learning platform that transforms PDF documents into interactive quizzes, making studying faster and more engaging.",
     tech: ["React", "FastAPI", "Gemini", "SQLite"],
-    github: "https://github.com/Maaanav",
+    github: "https://github.com/Maaanav/webquiz",
   },
   {
     id: "03",
@@ -32,7 +33,7 @@ const projects = [
     description:
       "A personal finance tracker that enables users to record expenses, visualize spending habits, and manage budgets with ease.",
     tech: ["Django", "PostgreSQL", "Bootstrap"],
-    github: "https://github.com/Maaanav",
+    github: "https://github.com/Maaanav/spendwise",
   },
   {
     id: "04",
@@ -41,7 +42,7 @@ const projects = [
     description:
       "A machine learning application that predicts Mumbai apartment prices with approximately 92.5% accuracy using regression models.",
     tech: ["Streamlit", "Scikit-Learn", "Machine Learning"],
-    github: "https://github.com/Maaanav",
+    github: "https://github.com/Maaanav/Mumbai_Real_Estate",
   },
   {
     id: "05",
@@ -50,7 +51,16 @@ const projects = [
     description:
       "An AI-powered financial education platform that simplifies stock market learning through intelligent assistance and interactive content.",
     tech: ["React", "Node.js", "FastAPI", "MongoDB"],
-    github: "https://github.com/Maaanav",
+    github: "https://github.com/Maaanav/StockWiz",
+  },
+  {
+    id: "06",
+    title: "Sales & Customer Performance Dashboard",
+    image: salesDashboardImg,
+    description:
+      "An interactive Tableau dashboard that visualizes sales performance, customer behavior, profits, and historical trends. It enables businesses to analyze KPIs, compare yearly performance, and make data-driven decisions through dynamic visualizations.",
+    tech: ["Tableau", "SQL", "Excel"],
+    github: "https://github.com/Maaanav/Sales-and-Customer-Performance-Dashboards",
   },
 ];
 

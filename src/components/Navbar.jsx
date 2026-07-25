@@ -76,12 +76,13 @@ function Navbar() {
         <div className="nav-right">
 
           <a
-            href="/resume.pdf"
-            download
+            href="https://drive.google.com/drive/folders/133oLt4k1LSKJBWz8etNYjo5SQdWHvetC?usp=share_link"
+            target="_blank"
+            rel="noopener noreferrer"
             className="resume-btn"
           >
-            <FiDownload />
-            Resume
+          <FiDownload />
+           Resume
           </a>
 
           <button

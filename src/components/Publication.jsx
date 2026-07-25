@@ -13,29 +13,38 @@ function Publication() {
 
           <article className="publication-card">
 
-            <p className="publication-meta">
-              Springer Nature · Scopus Indexed
-            </p>
+  <p className="publication-meta">
+    Springer Nature · Scopus Indexed
+  </p>
 
-            <h3>
-              Securing Media Integrity: A Blockchain-Based Approach Against
-              AI-Generated Deepfakes
-            </h3>
+  <h3>
+    Securing Media Integrity: A Blockchain-Based Approach Against
+    AI-Generated Deepfakes
+  </h3>
 
-            <p>
-              Research exploring a blockchain-based approach to strengthen
-              media integrity by verifying the authenticity of digital content
-              and mitigating the spread of AI-generated deepfakes.
-            </p>
+  <p>
+    Research exploring a blockchain-based approach to strengthen
+    media integrity by verifying the authenticity of digital content
+    and mitigating the spread of AI-generated deepfakes.
+  </p>
 
-            <div className="publication-tags">
-              <span>Blockchain</span>
-              <span>Deep Learning</span>
-              <span>Cybersecurity</span>
-              <span>AI</span>
-            </div>
+  <div className="publication-tags">
+    <span>Blockchain</span>
+    <span>Deep Learning</span>
+    <span>Cybersecurity</span>
+    <span>AI</span>
+  </div>
 
-          </article>
+  <a
+    href="https://link.springer.com/chapter/10.1007/978-981-96-4933-4_32#chapter-info"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="publication-link"
+  >
+    Read Publication →
+  </a>
+
+</article>
 
         </div>
 

@@ -42,11 +42,12 @@ function Hero() {
           </a>
 
           <a
-            href="/resume.pdf"
-            download
+            href="https://drive.google.com/drive/folders/133oLt4k1LSKJBWz8etNYjo5SQdWHvetC?usp=share_link"
+            target="_blank"
+            rel="noopener noreferrer"
             className="button button-secondary"
           >
-            Download Resume
+            View Resume
           </a>
 
         </div>

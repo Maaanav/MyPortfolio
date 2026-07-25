@@ -800,6 +800,30 @@
 
 }
 
+.publication-link{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    margin-top:1.5rem;
+
+    color:var(--accent);
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.publication-link:hover{
+
+    color:var(--accent-dark);
+
+    transform:translateX(4px);
+
+}
+
 /* =====================================================
    Achievements
 ===================================================== */
