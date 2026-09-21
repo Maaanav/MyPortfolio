@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import luxuraImg from "../assets/luxura.png";
 import quizImg from "../assets/quizweb.png";
 import spendwiseImg from "../assets/spendwise.png";
-import flatImg from "../assets/mumbai-price.png";
+import medicalInsuranceImg from "../assets/medicalInsurance.png"
 import stockwizImg from "../assets/stockwiz.png";
 import salesDashboardImg from "../assets/sales-dashboard.png";
 
@@ -37,12 +37,12 @@ const projects = [
   },
   {
     id: "04",
-    title: "Mumbai Flat Price Predictor",
-    image: flatImg,
+    title: "Medical Insurance Cost Prediction",
+    image: medicalInsuranceImg,
     description:
-      "A machine learning application that predicts Mumbai apartment prices with approximately 92.5% accuracy using regression models.",
-    tech: ["Streamlit", "Scikit-Learn", "Machine Learning"],
-    github: "https://github.com/Maaanav/Mumbai_Real_Estate",
+      "An end-to-end ML pipeline for predicting medical insurance charges, achieving R² = 0.9005 and MAE = 2,393.55 using a tuned Random Forest Regressor with 5-fold cross-validation.",
+    tech: ["Python", "Pandas", "Scikit-Learn", "FastAPI", "Streamlit", "SHAP", "MLflow", "Docker"],
+    github: "https://github.com/Maaanav/insurance-cost-prediction-ml",
   },
   {
     id: "05",
